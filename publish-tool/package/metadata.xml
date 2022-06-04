@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="ME_f2517a1f-8f02-4138-82ee-123d8c4ec27c" ID="ME_4e27ab85-09c8-4f0a-bb31-74574f6210d6"><md:SPSSODescriptor AuthnRequestsSigned="false" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIICpDCCAYygAwIBAgIIRS53UGI0mTgwDQYJKoZIhvcNAQEFBQAwEjEQMA4GA1UE
+AwwHV0lOMksxNjAeFw0yMjA0MjQwMTQ4NTBaFw0zMjA0MjIwMTQ4NTBaMBIxEDAO
+BgNVBAMMB1dJTjJLMTYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDC
+8gqku5q3T3D3cVmgxx3KToMzg3c95TiyIDJoIaX3oGYntfUBZBYTmejDUsvQtVhz
+EBodR2thaQe/gwy4aQ8bzP8RxFTHRZAS/+g9ZpBPRNogSu5B1sggXnmPcvLn9LD1
+hulbqrhgugfFBLDUP8x4u7P0FdXLeQZAWYle6GKtyXeLFSt/RFyonmWF1LFQI3pt
+ARVAxAkHnNHj/a8PLgY1IUf1t8LHuIQ2D9zzH4hNHC0/uPOISNZC6rDKfvUGSQAk
+EJHAdkmS/bjuPBvwn30sdep9h73+91DSLMYL7VN6wd8xfD8w5jvvK1MUTxc62h64
+KpL2js5Jp7uiFD92OJf1AgMBAAEwDQYJKoZIhvcNAQEFBQADggEBAF2Z5FVwdjxn
+GymasrAYmhi3QflCYhxKDBp+Atbea7uPR3VRzlkjuNsFkhzwTRvbZB49TyQn+kKU
+eHjuS8DBboP6GKWzEQT0aDuuJUu9x2Z2AGTFLhRwPRcy3d5xdREgSVnQKPtIZ8tX
+DxypsZ+/piVZB/Oj5aWDg5ANUULRm5xNRXULa4Z2YNgYZR/SnS9PDkQTK2jAn9sH
+Dwvi+NtI2oH/1q1hOR752ebfZxuHYKlP/kCDagWhOvgD0GL8mPmaVt6VsZPySOm1
+yF7G+Z2i1U9MNXO20hsQ4nsE2o+6R4aqtFyVa/Bzw7UBxENJriJYPcvnMpl4iyLX
+FXbZaRGHqZM=
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://10.10.2.177:8080/SamlLogoutResponseServlet"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://10.10.2.177:8080/SamlResponseServlet" index="1"/></md:SPSSODescriptor></md:EntityDescriptor>
